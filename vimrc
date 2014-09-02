@@ -13,6 +13,7 @@ Plugin 'Valloric/YouCompleteMe'
 Plugin 'Valloric/ListToggle'
 Plugin 'honza/vim-snippets'
 Plugin 'SirVer/ultisnips'
+Plugin 'sjl/gundo.vim'
 Plugin 'Raimondi/delimitMate'     "配对补全
 Plugin 'scrooloose/nerdcommenter' "快速注释
 Plugin 'scrooloose/nerdtree'      "目录树
@@ -220,5 +221,13 @@ set pastetoggle=<F5>  " when in insert mode, press <F5> to go to
 " disbale paste mode when leaving insert mode
 au InsertLeave * set nopaste
 nnoremap <F6> :exec exists('syntax_on') ? 'syn off' : 'syn on'<CR>
+
+set undolevels=1000     " How many undos
+set undoreload=10000    " number of lines to save for undo
+if v:version >= 730
+    set undofile        " keep a persistent backup file
+    set undodir=/tmp/vimundo/
+endif"
+nnoremap <F7> :GundoToggle<CR>
 "}}}
 
