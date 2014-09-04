@@ -37,8 +37,12 @@ import ycm_core
 flags = [
 '-Wall',
 #'-Wextra',
+#'-Werror',
+#'-Wc++98-compat',
+#'-Wno-long-long',
 '-Wno-variadic-macros',
 '-fexceptions',
+#'-DNDEBUG',
 # THIS IS IMPORTANT! Without a "-std=<something>" flag, clang won't know which
 # language to use when compiling headers. So it will guess. Badly. So C++
 # headers will be compiled as C headers. You don't want that so ALWAYS specify
@@ -55,8 +59,6 @@ flags = [
 '-isystem', '/usr/local/include',
 '-isystem', '/usr/include/c++/4.8',
 '-isystem', '/usr/include/x86_64-linux-gnu/',
-'-isystem', '/usr/lib/gcc/x86_64-linux-gnu/4.8/include',
-'-isystem', '/usr/include/clang/3.4/include',
 '-I', '.',
 '-I', 'include',
 '-I', 'src',
