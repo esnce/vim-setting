@@ -35,6 +35,7 @@ let g:mapleader = ","
 "映射新按键
 nnoremap <leader>w   :w<CR>
 nnoremap <leader>q!  :q!<CR>
+nnoremap <leader>qq  :q<CR>
 nnoremap <leader>wq  :wq<CR>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
