@@ -19,7 +19,6 @@ Plugin 'scrooloose/nerdcommenter' "快速注释
 Plugin 'scrooloose/nerdtree'      "目录树
 Plugin 'vim-scripts/L9'
 Plugin 'vim-scripts/FuzzyFinder'
-Plugin 'marijnh/tern_for_vim'
 Plugin 'majutsushi/tagbar'
 
 call vundle#end()
