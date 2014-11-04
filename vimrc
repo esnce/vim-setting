@@ -201,7 +201,7 @@ nnoremap <leader>jd :YcmCompleter GoTo<CR>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " F1-F7
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-noremap <F1> <Esc>
+noremap <F1> <Esc>			"禁用F1
 function! HideNumber()
     if(&relativenumber == &number)
         set relativenumber! number!
