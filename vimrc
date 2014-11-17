@@ -130,11 +130,11 @@ set shiftwidth=4
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " 折叠-使用空格键  "{{{
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-set foldenable 
-set foldmethod=syntax
-set foldcolumn=0
-setlocal foldlevel=99
-nnoremap <space> @=((foldclosed(line('.')) < 0) ? 'zc':'zo')<CR> 
+"set foldenable 
+"set foldmethod=syntax
+"set foldcolumn=0
+"setlocal foldlevel=99
+"nnoremap <space> @=((foldclosed(line('.')) < 0) ? 'zc':'zo')<CR> 
 "}}}
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
