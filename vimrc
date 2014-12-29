@@ -14,7 +14,6 @@ Plugin 'Valloric/ListToggle'
 Plugin 'honza/vim-snippets'
 Plugin 'SirVer/ultisnips'
 Plugin 'sjl/gundo.vim'
-Plugin 'Raimondi/delimitMate'     "配对补全
 Plugin 'scrooloose/nerdcommenter' "快速注释
 Plugin 'scrooloose/nerdtree'      "目录树
 Plugin 'vim-scripts/L9'
