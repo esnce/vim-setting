@@ -89,7 +89,7 @@ set backspace=eol,start,indent
 "启动的时候不显示那个援助索马里儿童的提示 
 set shortmess=atI 
 
-"不让vim发出讨厌的滴滴声 
+"关闭滴滴声 
 set noerrorbells 
 set novisualbell
 set t_vb=
@@ -123,7 +123,7 @@ set tabstop=4           "制表符为4
 set noexpandtab         "不要用空格代替制表符
 
 "统一缩进为4 
-set softtabstop=4 
+set softtabstop=4
 set shiftwidth=4 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
