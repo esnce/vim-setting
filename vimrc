@@ -86,7 +86,7 @@ set cmdheight=2
 "回格键增强
 set backspace=eol,start,indent
 
-"启动的时候不显示那个援助索马里儿童的提示 
+"关闭启动画面 
 set shortmess=atI 
 
 "关闭滴滴声 
@@ -193,7 +193,6 @@ let g:UltiSnipsSnippetDirectories=['UltiSnips']
 let g:UltiSnipsSnippetsDir = '~/.vim/bundle/vim-snippets/UltiSnips'
 
 " Jump to definition
-"nnoremap <leader>jd :YcmCompleter GoToDefinitionElseDeclaration<CR>
 nnoremap <leader>jd :YcmCompleter GoTo<CR>
 "}}}
 
