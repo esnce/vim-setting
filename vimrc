@@ -19,6 +19,7 @@ Plugin 'scrooloose/nerdtree'      "目录树
 Plugin 'vim-scripts/L9'
 Plugin 'vim-scripts/FuzzyFinder'
 Plugin 'majutsushi/tagbar'
+Plugin 'fatih/vim-go'
 
 call vundle#end()
 filetype plugin indent on  " required

@@ -62,6 +62,7 @@ flags = [
 '-I', '.',
 '-I', 'include',
 '-I', 'src',
+'-I', '/usr/include/mysql',
 ]
 
 
