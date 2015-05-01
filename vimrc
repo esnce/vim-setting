@@ -20,6 +20,7 @@ Plugin 'vim-scripts/L9'
 Plugin 'vim-scripts/FuzzyFinder'
 Plugin 'majutsushi/tagbar'
 Plugin 'fatih/vim-go'
+Plugin 'pangloss/vim-javascript'
 
 call vundle#end()
 filetype plugin indent on  " required
@@ -120,7 +121,7 @@ set formatoptions=tcrqn "自动格式化
 set smartindent         "为C程序提供自动缩进
 set autoindent          "继承前一行的缩进方式
 set cindent             "使用C样式的缩进
-set ts=2                "制表符为2空格宽度
+set ts=4                "制表符为2空格宽度
 set expandtab           "空格代替制表符
 
 "统一缩进为4 
