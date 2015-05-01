@@ -19,6 +19,7 @@ Plugin 'scrooloose/nerdtree'      "目录树
 Plugin 'vim-scripts/L9'
 Plugin 'vim-scripts/FuzzyFinder'
 Plugin 'majutsushi/tagbar'
+Plugin 'nsf/gocode', {'rtp': 'vim/'}
 Plugin 'fatih/vim-go'
 Plugin 'pangloss/vim-javascript'
 
