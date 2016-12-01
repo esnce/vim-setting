@@ -162,18 +162,6 @@ nnoremap <silent> <F8> :NERDTreeToggle<CR>
 "}}}
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" 文件查找 "{{{
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-nnoremap <silent> fd     :FufDir<CR>
-nnoremap <silent> ff     :FufFile<CR>
-nnoremap <silent> fc     :FufCoverageFile!<CR>
-nnoremap <silent> fl     :FufLine<CR>
-nnoremap <silent> ft     :FufTag<CR>
-let g:fuf_coveragefile_exclude = '\v\~$|\.(o|so|bak|swp|png|jpg|jpeg|gif)$|(^|[/\\])\.(git)($|[/\\])|(tmp|log|db/migrate|vendor)|(ycm_extra_conf)|^(tags)$'
-let g:fuf_enumeratingLimit = 5000
-"}}}
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " 自动补全 "{{{
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:ycm_global_ycm_extra_conf = '~/.ycm_extra_conf.py'
