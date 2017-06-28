@@ -244,3 +244,6 @@ endif"
 nnoremap <F7> :GundoToggle<CR>
 "}}}
 
+cnoremap < C-p > < Up >
+cnoremap <C-n> <Down>
+
